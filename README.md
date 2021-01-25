@@ -1,4 +1,4 @@
-# project-bikesharing
+# Predicting Bike-Sharing Patterns Project 
 
 > The main goal is to find the count of total daily rental bikes including both casual and registered. Original features and target numbers in dataset is 17 (16 features and 1 target).
 
@@ -26,7 +26,7 @@ This dataset contains categrical inputs like season, weather, month. So, they ne
 
 The aim of this scaling is to make the training of the netowork easier. So, continues variables should be standaries to have  Zero mean and a standard deviation of 1.
 
-# Data Slpitting:
+## Data Slpitting:
 
 The dataset is splitted ino training, validation and testing as below: 
 
@@ -35,7 +35,7 @@ The dataset is splitted ino training, validation and testing as below:
 - Testing dataset: 3% 
 
 
-## Hyperparameter Tuning: 
+# Hyperparameter Tuning: 
 
 You can tune the the following hyperparamters: 
 
@@ -43,7 +43,7 @@ You can tune the the following hyperparamters:
 - Choosing the learning rate 
 - Choosing the number of hidden nodes
 
-## Results: 
+# Results: 
 
 Using the following hyperparamter: 
 
@@ -63,6 +63,6 @@ Using the following hyperparamter:
 
 
 
-## Note: 
+# Note: 
 
 I downloaded this project from [Udacity Projects](https://github.com/udacity/deep-learning-v2-pytorch)

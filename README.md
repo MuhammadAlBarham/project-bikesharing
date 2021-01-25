@@ -1,5 +1,6 @@
 # project-bikesharing
 
+> The main goal is to find the count of total daily rental bikes including both casual and registered. Original features and target numbers in dataset is 17 (16 features and 1 target).
 
 
 # Description: 
@@ -14,16 +15,12 @@ This considered a simple regression problem which use simple neural network. The
 
 
 
-The main goal is to find the count of total daily rental bikes including both casual and registered. Original features and target numbers in dataset is 17 (16 features and 1 target).
-
 # Data Processing
 
 ## Converting Categorical Data to numerical numbers: 
 
-----
-(This dataset contains categrical inputs like season, weather, month. So, they need to be convertd to numerical values. This can be done using [get_dummies](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.get_dummies.html) which Convert categorical variable into dummy/indicator variables.
+This dataset contains categrical inputs like season, weather, month. So, they need to be convertd to numerical values. This can be done using [get_dummies](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.get_dummies.html) which Convert categorical variable into dummy/indicator variables.
 
-----
 
 ## Scalling variables: 
 
@@ -44,7 +41,7 @@ You can tune the the following hyperparamters:
 
 - Number of iterations
 - Choosing the learning rate 
-- choosing the number of hidden nodes
+- Choosing the number of hidden nodes
 
 ## Results: 
 
@@ -54,8 +51,18 @@ Using the following hyperparamter:
 
 - The results are : 
 
-Training loss: 0.230 ... Validation loss: 0.388
+`Training loss: 0.230 ... Validation loss: 0.388`
+
+![Training_Validation](./assets/Training_and_Validation_Dataset.png)
+
+----
+
+> And the prediction is : 
+
+![Predection](https://github.com/MuhammadAlBarham/project-bikesharing/blob/main/assets/Prediction.png)
 
 
 
+## Note: 
 
+I downloaded this project from [Udacity Projects](https://github.com/udacity/deep-learning-v2-pytorch)
